@@ -3,8 +3,9 @@ useful factory to check the index of an id in a large array of objects. Good for
 
 Usage in controller
 
+ ```javascript
  var itemIndexPromise = indexCheck.getPosition(idToCheck, "nameofcollection");
     itemIndexPromise.then(function(itemIndex){
         console.log(itemIndex);
         $scope.indexNumber = itemIndex;
-    })
+    });
