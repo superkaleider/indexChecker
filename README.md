@@ -9,3 +9,5 @@ Usage in controller
         console.log(itemIndex);
         $scope.indexNumber = itemIndex;
     });
+
+//test
